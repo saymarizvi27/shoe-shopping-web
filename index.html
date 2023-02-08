@@ -81,7 +81,7 @@
           </div>
 
           <div class="image">
-            <img src="image/shoes1.png">
+            <img src="image/shoes1.png" />
           </div>
 
           <div class="products_text">
@@ -108,7 +108,7 @@
           </div>
 
           <div class="image">
-            <img src="image/shoes2.png">
+            <img src="image/shoes2.png" />
           </div>
 
           <div class="products_text">
@@ -135,7 +135,7 @@
           </div>
 
           <div class="image">
-            <img src="image/shoes3.png">
+            <img src="image/shoes3.png" />
           </div>
 
           <div class="products_text">
@@ -162,7 +162,7 @@
           </div>
 
           <div class="image">
-            <img src="image/shoes4.png">
+            <img src="image/shoes4.png" />
           </div>
 
           <div class="products_text">
@@ -189,7 +189,7 @@
           </div>
 
           <div class="image">
-            <img src="image/shoes5.png">
+            <img src="image/shoes5.png" />
           </div>
 
           <div class="products_text">
@@ -216,7 +216,7 @@
           </div>
 
           <div class="image">
-            <img src="image/shoes6.png">
+            <img src="image/shoes6.png" />
           </div>
 
           <div class="products_text">
@@ -243,7 +243,7 @@
           </div>
 
           <div class="image">
-            <img src="image/shoes7.png">
+            <img src="image/shoes7.png" />
           </div>
 
           <div class="products_text">
@@ -270,7 +270,7 @@
           </div>
 
           <div class="image">
-            <img src="image/shoes8.png">
+            <img src="image/shoes8.png" />
           </div>
 
           <div class="products_text">
@@ -291,7 +291,65 @@
           </div>
         </div>
       </div>
-      
+    </div>
+
+    <div class="about" id="About">
+      <h1>Web<span>About</span></h1>
+
+      <div class="about_main">
+        <div class="about_image">
+          <div class="about_small_image">
+            <img src="image/red_shoes1.png" onclick="functio(this)" />
+            <img src="image/red_shoes2.png" onclick="functio(this)" />
+            <img src="image/red_shoes3.png" onclick="functio(this)" />
+            <img src="image/red_shoes4.png" onclick="functio(this)" />
+          </div>
+
+          <div class="image_container">
+            <img src="image/red_shoes1.png" id="imagebox" />
+          </div>
+        </div>
+
+        <div class="about_text">
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book. It has survived not
+            only five centuries, but also the leap into electronic typesetting,
+            remaining essentially unchanged. It was popularised in the 1960s
+            with the release of Letraset sheets containing Lorem Ipsum passages,
+            and more recently with desktop publishing software like Aldus
+            PageMaker including versions of Lorem Ipsum.Lorem Ipsum is simply
+            dummy text of the printing and typesetting industry. Lorem Ipsum has
+            been the industry's standard dummy text ever since the 1500s, when
+            an unknown printer took a galley of type and scrambled it to make a
+            type specimen book. It has survived not only five centuries, but
+            also the leap into electronic typesetting, remaining essentially
+            unchanged. It was popularised in the 1960s with the release of
+            Letraset sheets containing Lorem Ipsum passages, and more recently
+            with desktop publishing software like Aldus PageMaker including
+            versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of the
+            printing and typesetting industry. Lorem Ipsum has been the
+            industry's standard dummy text ever since the 1500s, when an unknown
+            printer took a galley of type and scrambled it to make a type
+            specimen book. It has survived not only five centuries, but also the
+            leap into electronic typesetting, remaining essentially unchanged.
+            It was popularised in the 1960s with the release of Letraset sheets
+            containing Lorem Ipsum passages, and more recently with desktop
+            publishing software like Aldus PageMaker including versions of Lorem
+            Ipsum.
+          </p>
+        </div>
+      </div>
+      <a href="#" class="about_btn">Shop Now</a>
+      <script>
+        function functio(small){
+          var full = document.getElementById("imagebox")
+          full.src = small.src
+
+        }
+      </script>
     </div>
   </body>
 </html>
